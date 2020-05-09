@@ -1,7 +1,16 @@
 # 比特币技术实现
 Go 实现简易版比特币。
 
-## 命令行
+## 运行脚本
+
+```shell
+bin/
+  linux   - Linux系统
+  mac     - MacOS系统
+  windows - Windows系统
+```
+
+## 命令
 
 ```shell
 bitcoin-go\bin\windows>.\bitcoin
@@ -102,10 +111,10 @@ bitcoin-go\bin\windows>.\bitcoin -get-balance 1HHqc8uJyUg7qtwbbqP9MNEpeTDSBykmrf
 命令:
 
 ```shell
-.\bitcoin -send 付款人 收款人 转账金额 旷工
+.\bitcoin -send 付款人 收款人 转账金额 矿工
 ```
 
-`1HHqc8uJyUg7qtwbbqP9MNEpeTDSBykmrf` 向 `1Q919Bek615WSetANgGccoUgTwpp76xp8b` 转 2.5，指定 `14sobo6du8vRW9ZPXjMSgzfGWAcaGtwFEc` 为旷工。
+`1HHqc8uJyUg7qtwbbqP9MNEpeTDSBykmrf` 向 `1Q919Bek615WSetANgGccoUgTwpp76xp8b` 转 2.5，指定 `14sobo6du8vRW9ZPXjMSgzfGWAcaGtwFEc` 为矿工。
 
 ```shell
 bitcoin-go\bin\windows>.\bitcoin -send 1HHqc8uJyUg7qtwbbqP9MNEpeTDSBykmrf 1Q919Bek615WSetANgGccoUgTwpp76xp8b 2.5 14sobo6du8vRW9ZPXjMSgzfGWAcaGtwFEc
